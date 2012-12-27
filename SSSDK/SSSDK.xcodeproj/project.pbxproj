@@ -35,7 +35,6 @@
 		9D1F49A3168C47E40038AEBF /* NSString+NSStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F4986168C47E40038AEBF /* NSString+NSStringUtil.m */; };
 		9D1F49A4168C47E40038AEBF /* SSSystemUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F4989168C47E40038AEBF /* SSSystemUtils.m */; };
 		9D1F49A5168C47E40038AEBF /* SSUncaughtExceptionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F498B168C47E40038AEBF /* SSUncaughtExceptionService.m */; };
-		9D1F49A6168C47E40038AEBF /* UIView+UIViewUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F498E168C47E40038AEBF /* UIView+UIViewUtil.m */; };
 		9D1F4E7F168C498F0038AEBF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9D1F4E65168C498E0038AEBF /* .gitignore */; };
 		9D1F4E80168C498F0038AEBF /* CHANGES_AND_TODO_LIST.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9D1F4E66168C498E0038AEBF /* CHANGES_AND_TODO_LIST.txt */; };
 		9D1F4E81168C498F0038AEBF /* CONTRIBUTORS.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9D1F4E67168C498E0038AEBF /* CONTRIBUTORS.txt */; };
@@ -49,6 +48,7 @@
 		9D1F4E8A168C498F0038AEBF /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F4E7A168C498E0038AEBF /* FMResultSet.m */; };
 		9D1F4EA7168C4AA30038AEBF /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1F4EA6168C4AA30038AEBF /* libsqlite3.0.dylib */; };
 		9D1F4EA9168C4AF40038AEBF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1F4EA8168C4AF40038AEBF /* MessageUI.framework */; };
+		9D1F4EAC168C4EF80038AEBF /* UIView+UIViewUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F4EAB168C4EF70038AEBF /* UIView+UIViewUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,8 +119,6 @@
 		9D1F4989168C47E40038AEBF /* SSSystemUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSSystemUtils.m; sourceTree = "<group>"; };
 		9D1F498A168C47E40038AEBF /* SSUncaughtExceptionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSUncaughtExceptionService.h; sourceTree = "<group>"; };
 		9D1F498B168C47E40038AEBF /* SSUncaughtExceptionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSUncaughtExceptionService.m; sourceTree = "<group>"; };
-		9D1F498D168C47E40038AEBF /* UIView+UIViewUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIViewUtil.h"; sourceTree = "<group>"; };
-		9D1F498E168C47E40038AEBF /* UIView+UIViewUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIViewUtil.m"; sourceTree = "<group>"; };
 		9D1F4E65168C498E0038AEBF /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		9D1F4E66168C498E0038AEBF /* CHANGES_AND_TODO_LIST.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGES_AND_TODO_LIST.txt; sourceTree = "<group>"; };
 		9D1F4E67168C498E0038AEBF /* CONTRIBUTORS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CONTRIBUTORS.txt; sourceTree = "<group>"; };
@@ -141,6 +139,8 @@
 		9D1F4E7A168C498E0038AEBF /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		9D1F4EA6168C4AA30038AEBF /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		9D1F4EA8168C4AF40038AEBF /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		9D1F4EAA168C4EF70038AEBF /* UIView+UIViewUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIViewUtil.h"; sourceTree = "<group>"; };
+		9D1F4EAB168C4EF70038AEBF /* UIView+UIViewUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIViewUtil.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +233,8 @@
 		9D1F4951168C47E40038AEBF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9D1F4EAA168C4EF70038AEBF /* UIView+UIViewUtil.h */,
+				9D1F4EAB168C4EF70038AEBF /* UIView+UIViewUtil.m */,
 				9D1F4952168C47E40038AEBF /* Badge */,
 				9D1F4955168C47E40038AEBF /* Button */,
 				9D1F4958168C47E40038AEBF /* Keyboard */,
@@ -361,7 +363,6 @@
 				9D1F497F168C47E40038AEBF /* Json */,
 				9D1F4982168C47E40038AEBF /* Language */,
 				9D1F4987168C47E40038AEBF /* System */,
-				9D1F498C168C47E40038AEBF /* UI */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -402,15 +403,6 @@
 				9D1F498B168C47E40038AEBF /* SSUncaughtExceptionService.m */,
 			);
 			path = System;
-			sourceTree = "<group>";
-		};
-		9D1F498C168C47E40038AEBF /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				9D1F498D168C47E40038AEBF /* UIView+UIViewUtil.h */,
-				9D1F498E168C47E40038AEBF /* UIView+UIViewUtil.m */,
-			);
-			path = UI;
 			sourceTree = "<group>";
 		};
 		9D1F49A7168C48CC0038AEBF /* Lib */ = {
@@ -586,12 +578,12 @@
 				9D1F49A3168C47E40038AEBF /* NSString+NSStringUtil.m in Sources */,
 				9D1F49A4168C47E40038AEBF /* SSSystemUtils.m in Sources */,
 				9D1F49A5168C47E40038AEBF /* SSUncaughtExceptionService.m in Sources */,
-				9D1F49A6168C47E40038AEBF /* UIView+UIViewUtil.m in Sources */,
 				9D1F4E85168C498F0038AEBF /* FMDatabase.m in Sources */,
 				9D1F4E86168C498F0038AEBF /* FMDatabaseAdditions.m in Sources */,
 				9D1F4E87168C498F0038AEBF /* FMDatabasePool.m in Sources */,
 				9D1F4E88168C498F0038AEBF /* FMDatabaseQueue.m in Sources */,
 				9D1F4E8A168C498F0038AEBF /* FMResultSet.m in Sources */,
+				9D1F4EAC168C4EF80038AEBF /* UIView+UIViewUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
