@@ -2,20 +2,17 @@
 //  SSAppDelegate.m
 //  SSSDK
 //
-//  Created by 刘 佳 on 12-12-26.
-//  Copyright (c) 2012年 刘 佳. All rights reserved.
+//  Created by 刘 佳 on 12-12-27.
+//  Copyright (c) 2012年 Small-Soft. All rights reserved.
 //
 
 #import "SSAppDelegate.h"
-
-#import "SSViewController.h"
 
 @implementation SSAppDelegate
 
 - (void)dealloc
 {
     [_window release];
-    [_viewController release];
     [super dealloc];
 }
 
@@ -23,8 +20,7 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.viewController = [[[SSViewController alloc] initWithNibName:@"SSViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.viewController;
+    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9D44EE80168AD813003AAC29"
+               BlueprintIdentifier = "9D1F492D168C445F0038AEBF"
                BuildableName = "SSSDK.app"
                BlueprintName = "SSSDK"
                ReferencedContainer = "container:SSSDK.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9D44EE80168AD813003AAC29"
+            BlueprintIdentifier = "9D1F492D168C445F0038AEBF"
             BuildableName = "SSSDK.app"
             BlueprintName = "SSSDK"
             ReferencedContainer = "container:SSSDK.xcodeproj">
@@ -51,7 +51,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9D44EE80168AD813003AAC29"
+            BlueprintIdentifier = "9D1F492D168C445F0038AEBF"
             BuildableName = "SSSDK.app"
             BlueprintName = "SSSDK"
             ReferencedContainer = "container:SSSDK.xcodeproj">
@@ -69,7 +69,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9D44EE80168AD813003AAC29"
+            BlueprintIdentifier = "9D1F492D168C445F0038AEBF"
             BuildableName = "SSSDK.app"
             BlueprintName = "SSSDK"
             ReferencedContainer = "container:SSSDK.xcodeproj">
