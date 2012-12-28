@@ -6,19 +6,19 @@
 //
 //
 
-#import "SSQUMoreViewController.h"
+#import "SSMoreViewController.h"
 #import <MessageUI/MessageUI.h>
 #import <MessageUI/MFMailComposeViewController.h>
 #import "SSWebViewController.h"
 #import "UIView+UIViewUtil.h"
 
-@interface SSQUMoreViewController ()<UITableViewDataSource,UITableViewDelegate,MFMailComposeViewControllerDelegate>
+@interface SSMoreViewController ()<UITableViewDataSource,UITableViewDelegate,MFMailComposeViewControllerDelegate>
 @property (nonatomic, retain) IBOutlet UILabel * versionLabel;
 @property (nonatomic, retain) IBOutlet UITableView * contentTableView;
 @property (nonatomic, retain) IBOutlet UILabel * appName;
 @end
 
-@implementation SSQUMoreViewController
+@implementation SSMoreViewController
 @synthesize versionLabel = _versionLabel;
 @synthesize contentTableView = _contentTableView;
 @synthesize appName = _appName;

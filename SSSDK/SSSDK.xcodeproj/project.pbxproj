@@ -11,7 +11,6 @@
 		9D1F4935168C44600038AEBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1F4934168C44600038AEBF /* Foundation.framework */; };
 		9D1F4937168C44600038AEBF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1F4936168C44600038AEBF /* CoreGraphics.framework */; };
 		9D1F493D168C44600038AEBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D1F493B168C44600038AEBF /* InfoPlist.strings */; };
-		9D1F493F168C44600038AEBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F493E168C44600038AEBF /* main.m */; };
 		9D1F4943168C44600038AEBF /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F4942168C44600038AEBF /* SSAppDelegate.m */; };
 		9D1F498F168C47E40038AEBF /* SSBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F4954168C47E40038AEBF /* SSBadgeView.m */; };
 		9D1F4990168C47E40038AEBF /* SSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F4957168C47E40038AEBF /* SSButton.m */; };
@@ -25,8 +24,8 @@
 		9D1F4998168C47E40038AEBF /* SSMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F4969168C47E40038AEBF /* SSMenuView.m */; };
 		9D1F4999168C47E40038AEBF /* ADVPercentProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F496C168C47E40038AEBF /* ADVPercentProgressBar.m */; };
 		9D1F499A168C47E40038AEBF /* SSToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F496F168C47E40038AEBF /* SSToastView.m */; };
-		9D1F499B168C47E40038AEBF /* SSQUMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F4973168C47E40038AEBF /* SSQUMoreViewController.m */; };
-		9D1F499C168C47E40038AEBF /* SSQUMoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D1F4974168C47E40038AEBF /* SSQUMoreViewController.xib */; };
+		9D1F499B168C47E40038AEBF /* SSMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F4973168C47E40038AEBF /* SSMoreViewController.m */; };
+		9D1F499C168C47E40038AEBF /* SSMoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D1F4974168C47E40038AEBF /* SSMoreViewController.xib */; };
 		9D1F499D168C47E40038AEBF /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F4976168C47E40038AEBF /* SSViewController.m */; };
 		9D1F499E168C47E40038AEBF /* SSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F4979168C47E40038AEBF /* SSWebViewController.m */; };
 		9D1F499F168C47E40038AEBF /* SSWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D1F497A168C47E40038AEBF /* SSWebViewController.xib */; };
@@ -75,7 +74,6 @@
 		9D1F4936168C44600038AEBF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9D1F493A168C44600038AEBF /* SSSDK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSSDK-Info.plist"; sourceTree = "<group>"; };
 		9D1F493C168C44600038AEBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9D1F493E168C44600038AEBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D1F4940168C44600038AEBF /* SSSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSSDK-Prefix.pch"; sourceTree = "<group>"; };
 		9D1F4941168C44600038AEBF /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
 		9D1F4942168C44600038AEBF /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
@@ -101,9 +99,9 @@
 		9D1F496C168C47E40038AEBF /* ADVPercentProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADVPercentProgressBar.m; sourceTree = "<group>"; };
 		9D1F496E168C47E40038AEBF /* SSToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSToastView.h; sourceTree = "<group>"; };
 		9D1F496F168C47E40038AEBF /* SSToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSToastView.m; sourceTree = "<group>"; };
-		9D1F4972168C47E40038AEBF /* SSQUMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSQUMoreViewController.h; sourceTree = "<group>"; };
-		9D1F4973168C47E40038AEBF /* SSQUMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSQUMoreViewController.m; sourceTree = "<group>"; };
-		9D1F4974168C47E40038AEBF /* SSQUMoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSQUMoreViewController.xib; sourceTree = "<group>"; };
+		9D1F4972168C47E40038AEBF /* SSMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSMoreViewController.h; sourceTree = "<group>"; };
+		9D1F4973168C47E40038AEBF /* SSMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSMoreViewController.m; sourceTree = "<group>"; };
+		9D1F4974168C47E40038AEBF /* SSMoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSMoreViewController.xib; sourceTree = "<group>"; };
 		9D1F4975168C47E40038AEBF /* SSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
 		9D1F4976168C47E40038AEBF /* SSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSViewController.m; sourceTree = "<group>"; };
 		9D1F4978168C47E40038AEBF /* SSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSWebViewController.h; sourceTree = "<group>"; };
@@ -206,7 +204,6 @@
 			children = (
 				9D1F493A168C44600038AEBF /* SSSDK-Info.plist */,
 				9D1F493B168C44600038AEBF /* InfoPlist.strings */,
-				9D1F493E168C44600038AEBF /* main.m */,
 				9D1F4940168C44600038AEBF /* SSSDK-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -339,9 +336,9 @@
 		9D1F4971168C47E40038AEBF /* More */ = {
 			isa = PBXGroup;
 			children = (
-				9D1F4972168C47E40038AEBF /* SSQUMoreViewController.h */,
-				9D1F4973168C47E40038AEBF /* SSQUMoreViewController.m */,
-				9D1F4974168C47E40038AEBF /* SSQUMoreViewController.xib */,
+				9D1F4972168C47E40038AEBF /* SSMoreViewController.h */,
+				9D1F4973168C47E40038AEBF /* SSMoreViewController.m */,
+				9D1F4974168C47E40038AEBF /* SSMoreViewController.xib */,
 			);
 			path = More;
 			sourceTree = "<group>";
@@ -540,7 +537,7 @@
 				9D1F493D168C44600038AEBF /* InfoPlist.strings in Resources */,
 				9D1F4995168C47E40038AEBF /* SSLoadingView.xib in Resources */,
 				9D1F4997168C47E40038AEBF /* SSMenuItemViewStyleImageAndText.xib in Resources */,
-				9D1F499C168C47E40038AEBF /* SSQUMoreViewController.xib in Resources */,
+				9D1F499C168C47E40038AEBF /* SSMoreViewController.xib in Resources */,
 				9D1F499F168C47E40038AEBF /* SSWebViewController.xib in Resources */,
 				9D1F4E7F168C498F0038AEBF /* .gitignore in Resources */,
 				9D1F4E80168C498F0038AEBF /* CHANGES_AND_TODO_LIST.txt in Resources */,
@@ -558,7 +555,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D1F493F168C44600038AEBF /* main.m in Sources */,
 				9D1F4943168C44600038AEBF /* SSAppDelegate.m in Sources */,
 				9D1F498F168C47E40038AEBF /* SSBadgeView.m in Sources */,
 				9D1F4990168C47E40038AEBF /* SSButton.m in Sources */,
@@ -570,7 +566,7 @@
 				9D1F4998168C47E40038AEBF /* SSMenuView.m in Sources */,
 				9D1F4999168C47E40038AEBF /* ADVPercentProgressBar.m in Sources */,
 				9D1F499A168C47E40038AEBF /* SSToastView.m in Sources */,
-				9D1F499B168C47E40038AEBF /* SSQUMoreViewController.m in Sources */,
+				9D1F499B168C47E40038AEBF /* SSMoreViewController.m in Sources */,
 				9D1F499D168C47E40038AEBF /* SSViewController.m in Sources */,
 				9D1F499E168C47E40038AEBF /* SSWebViewController.m in Sources */,
 				9D1F49A0168C47E40038AEBF /* SSDBUtils.m in Sources */,

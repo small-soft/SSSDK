@@ -42,7 +42,7 @@
 						<int key="NSvFlags">274</int>
 						<string key="NSFrame">{{0, 71}, {320, 389}}</string>
 						<reference key="NSSuperview" ref="733655934"/>
-						<reference key="NSNextKeyView" ref="971760167"/>
+						<reference key="NSNextKeyView" ref="592989592"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
@@ -66,7 +66,7 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{20, 15}, {57, 57}}</string>
 						<reference key="NSSuperview" ref="733655934"/>
-						<reference key="NSNextKeyView" ref="555466564"/>
+						<reference key="NSNextKeyView" ref="971760167"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -137,6 +137,7 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{92, 425}, {137, 22}}</string>
 						<reference key="NSSuperview" ref="733655934"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -148,7 +149,7 @@
 				</array>
 				<string key="NSFrameSize">{320, 460}</string>
 				<reference key="NSSuperview"/>
-				<reference key="NSNextKeyView" ref="592989592"/>
+				<reference key="NSNextKeyView" ref="555466564"/>
 				<string key="NSReuseIdentifierKey">_NS:9</string>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
@@ -274,7 +275,7 @@
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
-				<string key="-1.CustomClassName">SSQUMoreViewController</string>
+				<string key="-1.CustomClassName">SSMoreViewController</string>
 				<string key="-1.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="-2.CustomClassName">UIResponder</string>
 				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
