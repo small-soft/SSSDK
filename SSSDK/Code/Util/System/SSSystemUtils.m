@@ -134,32 +134,41 @@
 }
 
 + (void)sendEmail:(UIViewController<MFMailComposeViewControllerDelegate>*)controller title:(NSString *)title content:(NSString *)content toRecipients:(NSArray *)toRecipients{
-        Class mailClass = (NSClassFromString(@"MFMailComposeViewController"));
-        if (mailClass != nil)
+    [SSSystemUtils sendEmail:controller title:title content:content toRecipients:toRecipients attachment:nil];
+}
+
++(void)sendEmail:(UIViewController<MFMailComposeViewControllerDelegate> *)controller title:(NSString *)title content:(NSString *)content toRecipients:(NSArray *)toRecipients attachment:(NSData *)attachment {
+    
+    Class mailClass = (NSClassFromString(@"MFMailComposeViewController"));
+    if (mailClass != nil)
+    {
+        
+        if ([mailClass canSendMail])
         {
-            
-            if ([mailClass canSendMail])
-            {
-                [SSSystemUtils displayComposerSheet:controller title:title content:content toRecipients:toRecipients];
-            }
-            else
-            {
-                [SSSystemUtils launchMailAppOnDevice];
-            }
+            [SSSystemUtils displayComposerSheet:controller title:title content:content toRecipients:toRecipients attachment:attachment];
         }
         else
         {
             [SSSystemUtils launchMailAppOnDevice];
         }
+    }
+    else
+    {
+        [SSSystemUtils launchMailAppOnDevice];
+    }
 }
 
-+(void)displayComposerSheet:(UIViewController<MFMailComposeViewControllerDelegate>*)controller title:(NSString *)title content:(NSString *)content toRecipients:(NSArray *)toRecipients
++(void)displayComposerSheet:(UIViewController<MFMailComposeViewControllerDelegate>*)controller title:(NSString *)title content:(NSString *)content toRecipients:(NSArray *)toRecipients attachment:(NSData *)attachment
 {
 	MFMailComposeViewController *picker = [[MFMailComposeViewController alloc] init];
 	picker.mailComposeDelegate = controller;
 	
 	[picker setSubject:title];
-    [picker setMessageBody:content isHTML:NO];
+    if (attachment != nil) {
+        [picker addAttachmentData:attachment mimeType:@"" fileName:[NSString stringWithFormat:@"%@.png",title]];
+    }
+    
+    [picker setMessageBody:content isHTML:attachment != nil];
     
     if (toRecipients!=nil && [toRecipients count]>0) {
         [picker setToRecipients:toRecipients];

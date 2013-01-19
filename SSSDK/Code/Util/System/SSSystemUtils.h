@@ -33,4 +33,5 @@
 
 + (void) sendShotMessage:(UIViewController<MFMessageComposeViewControllerDelegate>*)controller content:(NSString*)content;
 + (void) sendEmail:(UIViewController<MFMailComposeViewControllerDelegate>*)controller title:(NSString*)title content:(NSString*)content toRecipients:(NSArray *)toRecipients;
++ (void) sendEmail:(UIViewController<MFMailComposeViewControllerDelegate>*)controller title:(NSString*)title content:(NSString*)content toRecipients:(NSArray *)toRecipients attachment:(NSData*)attachment;
 @end
