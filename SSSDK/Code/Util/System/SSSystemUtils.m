@@ -166,6 +166,11 @@
 	[picker setSubject:title];
     if (attachment != nil) {
         [picker addAttachmentData:attachment mimeType:@"" fileName:[NSString stringWithFormat:@"%@.png",title]];
+        NSMutableString *htmlStr = [NSMutableString stringWithString:content];
+        
+        NSRange range = NSMakeRange(0,htmlStr.length);
+        [htmlStr replaceOccurrencesOfString:@"\n" withString:@"<br>" options:NSWidthInsensitiveSearch range:range];
+        content = htmlStr;
     }
     
     [picker setMessageBody:content isHTML:attachment != nil];

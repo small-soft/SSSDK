@@ -109,9 +109,9 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     //appId为
-    NSString *appId = @"588272361";
+    NSString *appId = APP_ID;
     if (HAS_AD) {
-        appId =@"588272361";
+        appId =APP_ID;
     }
     
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
